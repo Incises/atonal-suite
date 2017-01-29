@@ -2,7 +2,7 @@
 Suite for Atonal Music
 
 
-## multi.c
+## multi12.c
 Multiplication Calculator for Twelve-Tone Technique
 
 Input Format:  
