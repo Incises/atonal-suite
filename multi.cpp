@@ -7,7 +7,7 @@ int main()
     cout<<"The length of your row:"<<endl;
     cin>>len;
     cout<<"Type your row (separated by spaces):"<<endl;
-    int typed[len];
+    int typed[len]={0};
     int i, m;
     for(i=0;i<len;i++)
         cin>>typed[i];
