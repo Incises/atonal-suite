@@ -19,12 +19,11 @@ int main()
     //m = 5;
     for (m=0;m<12;m++)
     {
+        cout<<"M"<<m<<" ";//Multiplication 1-12
         int row[len];
         for(i=0;i<len;i++)
             row[i]=typed[i];
             //copy the typed row
-
-        cout<<"M"<<m<<" ";
         for(i=0;i<len;i++)
         {
             row[i]*=m;
