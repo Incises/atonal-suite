@@ -1,4 +1,4 @@
-# atonal-suite
+ # atonal-suite
 Suite for Atonal Music
 
 
@@ -13,7 +13,7 @@ Input Example:
 `13  //row length  
 `1 1 4 5 1 4 8 1 0 1 9 1 9  //row  
 
-## Trope Generator(tropes.cpp)
+## Trope Generator (tropes.cpp)
 This program will automatically generate the 44 tropes.  
 About Hauer's Tropes:  
 https://de.wikipedia.org/wiki/Tropenlehre  
