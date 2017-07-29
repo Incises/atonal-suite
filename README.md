@@ -10,8 +10,8 @@ Input Example:
 ## Multiplication Calculator for Tone Row (multi.cpp)
 
 Input Example:  
-`13  //row length  
-`1 1 4 5 1 4 8 1 0 1 9 1 9  //row  
+`13`  
+`1 1 4 5 1 4 8 1 0 1 9 1 9`  
 
 ## Trope Generator (tropes.cpp)
 This program will automatically generate the 44 tropes.  
