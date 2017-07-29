@@ -17,3 +17,5 @@ Input Example:
 This program will automatically generate the 44 tropes.  
 About Hauer's Tropes:  
 https://de.wikipedia.org/wiki/Tropenlehre  
+See also:  
+https://github.com/jswxdzc/Sibrary/blob/master/Atonal/  
