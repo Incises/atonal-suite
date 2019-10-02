@@ -1,6 +1,7 @@
 #include <stdio.h>
-main()
+int main()
 {
+    printf("Multiplication calculator for 12-tone row\n");
     printf("Please type your 12-tone row(separated by spaces):\n");
     int typed[12];
     int i, m;
@@ -28,4 +29,5 @@ main()
             printf("%d ",row[i]);
         printf("\n");
     }
+    return 0;
 }

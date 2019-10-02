@@ -34,4 +34,5 @@ int main()
             cout<<row[i]<<" ";
             cout<<endl;
     }
+    return 0;
 }

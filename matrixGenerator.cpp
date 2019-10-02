@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 int main(){
     int p[12][12]={0};//Prime
@@ -35,24 +36,18 @@ int main(){
     //print prime row
     for(i=0;i<=11;++i)
     {
-        if(i<=9)
-            cout<<"P"<<i<<" : ";
-        else
-            cout<<"P"<<i<<": ";
+            cout<<"P"<<setiosflags(ios::left)<<setw(2)<<i<<": ";
         for(j=0;j<=11;++j)
-            cout<<p[i][j]<<" ";
+            cout<<setw(2)<<p[i][j]<<" ";
         cout<<":R"<<p[i][11]<<endl;
     }
     cout<<endl;
     //print inversion row
      for(i=0;i<=11;++i)
     {
-        if(i<=9)
-            cout<<"I"<<i<<" : ";
-        else
-            cout<<"I"<<i<<": ";
+            cout<<"I"<<setiosflags(ios::left)<<setw(2)<<i<<": ";
         for(j=0;j<=11;++j)
-            cout<<iv[i][j]<<" ";
+            cout<<setw(2)<<iv[i][j]<<" ";
         cout<<":RI"<<iv[i][11]<<endl;
     }
 }
